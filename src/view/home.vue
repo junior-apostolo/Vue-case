@@ -5,10 +5,6 @@
     </div>
 </template>
 
-<style>
-
-</style>
-
 <script>
 import Carrousel from '../components/Carrousel/carrousel.vue'
 import Main from '../components/MainNavigation/mainNavigation.vue'

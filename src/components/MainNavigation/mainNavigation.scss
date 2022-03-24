@@ -1,3 +1,4 @@
+
 .cmp-main-navigation{
     display: flex;
     flex-direction: row;
@@ -5,8 +6,7 @@
     justify-content: center;
     margin-top: 20px;
 
-    &__link{
-        text-decoration: none;
+    &__container-link{
         display: flex;
         width: 100px;
         background: #EFEEED;
@@ -17,11 +17,22 @@
         border: 2px solid;
         border-color: #D4D3D2;
         color: #000;
+        cursor: pointer;
+        flex-direction: column;
 
         &:hover{
             background-color: #F97C2A;
             color: #fff;
         }
+    }
+
+    &__link{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    p{
+        margin: 0;
     }
 
 }

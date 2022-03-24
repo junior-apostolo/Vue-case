@@ -1,8 +1,20 @@
 <template>
     <div class="cmp-main-navigation">
-        <a class="cmp-main-navigation__link" href="">Todos</a>
-        <a class="cmp-main-navigation__link" href="">Profissional</a>
-        <a class="cmp-main-navigation__link" href="">Financeiro</a>
+        <div class="cmp-main-navigation__container-link">
+            <font-awesome-icon icon="fa-solid fa-globe"/>
+            <p>Todos</p>
+        </div>
+
+        <div class="cmp-main-navigation__container-link">
+            <font-awesome-icon icon="fa-solid fa-person-chalkboard"/>
+            <p>Treinadores</p>
+        </div>
+
+        <div class="cmp-main-navigation__container-link">
+            <font-awesome-icon icon="fa-solid fa-person-running"/>
+            <p>Jogadores</p>
+        </div>
+
     </div>
 </template>
 
